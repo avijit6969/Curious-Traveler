@@ -10,6 +10,12 @@ body {
 
 }
 
+:root {
+    --primary-color: #FF5400;
+    --secondary-color: rgba(19, 19, 24, 0.70);
+    --title-color: #131318;
+}
+
 /* shared-style */
 main,
 header {
@@ -24,22 +30,25 @@ header {
 }
 
 .color-description {
-    color: #5A5A5D;
-
+    /* color: #5A5A5D; */
+    color: var(--secondary-color);
 }
+
+
 
 .primary-btn {
     padding: 14px 34px;
     border-radius: 8px;
-    background: #FF5400;
+    background: var(--primary-color);
     color: #FFF;
     text-align: center;
     font-weight: 800;
     border: 0;
-
-    /* shared-style */
-
 }
+
+/* shared-style */
+
+
 
 /* nav-style-start */
 nav {
@@ -73,23 +82,32 @@ nav>div {
 
 }
 
+.item-list>li a span {
+    color: var(--primary-color);
+}
+
 .logo-title {
     font-size: 30px;
 }
 
 .logo-title span {
-    color: #FF5400;
+    color: var(--primary-color);
 
 }
 
-.bar-icon{
+.bar-icon {
     display: none;
 }
-.bar-icon i{
+
+.bar-icon i {
     display: flex;
     justify-content: end;
 }
+
 /* nav-style-end */
+
+
+/* banner-section-start */
 
 .banner-section {
     height: 500px;
@@ -145,7 +163,16 @@ nav>div {
     padding: 9px 0 9px 9px;
 }
 
-/* main */
+.find-now-btn {
+    background-color: var(--primary-color);
+    color: #FFF;
+}
+
+
+/* banner-section-end */
+
+/* popular-section-start */
+
 .popular-section {
     display: flex;
     margin-top: 80px;
@@ -154,6 +181,16 @@ nav>div {
 
 .popular-content {
     padding-right: 60px;
+}
+
+.popular-description {
+    color: var(--secondary-color);
+    font-weight: 400;
+}
+
+.popular-description li {
+    color: var(--secondary-color);
+
 }
 
 .popular-section>div {
@@ -178,6 +215,7 @@ nav>div {
     width: 100%;
 }
 
+/* popular-section-end */
 
 
 /* destination-section-style */
@@ -191,6 +229,8 @@ nav>div {
 
 
 /* choose-us-section */
+
+
 .choose-us {
     margin-top: 80px;
 }
@@ -233,7 +273,10 @@ article>h1 {
     padding: 15px 0;
 }
 
+/* choose-us-section-end */
+
 /* newsletter-style */
+
 .newsletter {
     display: flex;
     margin-top: 80px;
@@ -283,7 +326,7 @@ article>h1 {
 
 .subscribe-button {
     border-radius: 8px;
-    background: #FF5400;
+    background: var(--primary-color);
     color: #FFF;
     text-align: center;
     font-size: 20px;
@@ -297,7 +340,7 @@ article>h1 {
     text-align: center;
     padding: 30px;
     border-radius: 16px;
-    background: #FF5400;
+    background: var(--primary-color);
     position: absolute;
     right: 2%;
     bottom: 12%;
@@ -339,7 +382,7 @@ footer {
 }
 
 .footer-title span {
-    color: #FF5400;
+    color: var(--primary-color);
     font-weight: 800;
 
 }
@@ -365,4 +408,4 @@ footer {
 }
 
 
-/* footer-section */
+/* footer-section-end */
