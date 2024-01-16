@@ -275,6 +275,31 @@ article>h1 {
 
 /* choose-us-section-end */
 
+
+/* extra-section-start */
+
+.extra-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #f5ebeb;
+    color: var(--secondary-color);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.extra-section-content {
+    max-width: 500px;
+    margin: auto;
+}
+
+
+
+/* extra-section-end */
+
+
 /* newsletter-style */
 
 .newsletter {

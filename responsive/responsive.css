@@ -49,6 +49,9 @@
         color: #FFF;
         font-size: 8px;
     }
+    .extra-section{
+        grid-template-columns: repeat(1, 1fr);
+    }
 
     .newsletter-content h3 {
         padding: 25px 0;
