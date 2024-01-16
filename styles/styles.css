@@ -68,9 +68,27 @@ nav>div {
 
 .item-list>li a {
     text-decoration: none;
+    color: #131318;
+    font-weight: 400;
 
 }
 
+.logo-title {
+    font-size: 30px;
+}
+
+.logo-title span {
+    color: #FF5400;
+
+}
+
+.bar-icon{
+    display: none;
+}
+.bar-icon i{
+    display: flex;
+    justify-content: end;
+}
 /* nav-style-end */
 
 .banner-section {

@@ -9,7 +9,15 @@
     .newsletter {
         flex-direction: column;
     }
-
+    nav>div {
+        width: auto;
+    }
+    .item-list{
+        display: none;
+    }
+    .bar-icon{
+        display: block;
+    }
     .banner-section {
         height: auto;
         width: auto;
@@ -37,12 +45,23 @@
         width: auto;
     }
 
+    .discount p {
+        color: #FFF;
+        font-size: 8px;
+    }
+
+    .newsletter-content h3 {
+        padding: 25px 0;
+        margin-top: 10px;
+
+    }
+
     footer {
         padding: 100px 40px;
     }
 
-}
 
+}
 
 @media screen and (min-width:600px) and (max-width:992px) {
 
