@@ -1,5 +1,46 @@
 @media screen and (max-width:600px) {
-    .input-item{
+    body{
+        margin: 0 10px;
+    }
+    .input-item,
+    .choose-article,
+    .popular-section{
         flex-direction: column;
+    }
+    .banner-section {
+        height: auto;
+        width: auto;
+    }
+    .popular-content{
+        padding: 0px;
+    }
+    .popular-section > div{
+        width: auto;
+
+    }
+    .choose-content p {
+        padding: 10px 10px;
+    }
+    .article-container article{
+        width: auto;
+    }
+}
+
+
+@media screen and (min-width:600px) and (max-width:992px) {
+    .input-item,
+    .choose-article,
+    .popular-section{
+        flex-direction: column;
+    }
+    .popular-section > div{
+        width: auto;
+
+    }
+    .choose-content p {
+        padding: 10px 10px;
+    }
+    .article-container article{
+        width: auto;
     }
 }
