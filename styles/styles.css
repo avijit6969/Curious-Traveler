@@ -163,6 +163,10 @@ nav>div {
     padding: 9px 0 9px 9px;
 }
 
+.input-field>i {
+    margin-right: 5px;
+}
+
 .find-now-btn {
     background-color: var(--primary-color);
     color: #FFF;
@@ -220,9 +224,56 @@ nav>div {
 
 /* destination-section-style */
 
-.destination-section {
-    margin-top: 80px;
+
+.destination {
+    margin-top: 100px;
 }
+
+.destination-content {
+    text-align: center;
+    padding: 15px 300px;
+}
+
+.img-container {
+    display: grid;
+    margin-top: 100px;
+    gap: 20px;
+    grid-auto-rows: 300px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    grid-auto-flow: dense;
+}
+
+.img-container .photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.img-container .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* position: relative; */
+}
+
+.img-container .wide {
+    grid-column: span 2;
+}
+
+
+.image-intro {
+    position: absolute;
+    z-index: 1;
+}
+
+.image-intro h4 {
+    color: #FFF;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
 
 
 /* destination-section-style */
@@ -276,23 +327,87 @@ article>h1 {
 /* choose-us-section-end */
 
 
+
+/* .perfect-place-style */
+
+
+.perfect-place {
+    display: flex;
+    /* border: 1px solid; */
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 80px;
+}
+
+.perfect-place-content {
+    padding-right: 60px;
+}
+
+.perfect-place-content p {
+    padding: 20px 0;
+}
+
+.perfect-place-description li {
+    margin-bottom: 20px;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.perfect-place>div {
+    width: 50%;
+}
+
+.perfect-place-description {
+    margin-left: 20px;
+}
+
+.perfect-place-img img {
+    width: 100%;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+}
+
+.perfect-place-bd {
+    text-align: center;
+    position: absolute;
+}
+
+
+/* .perfect-place-style-end*/
+
 /* extra-section-start */
 
 .extra-section {
     text-align: center;
-    padding: 40px;
+    padding: 80px 140px;
     background-color: #f5ebeb;
     color: var(--secondary-color);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
-    border: 1px solid;
+    gap: 60px;
+    /* border: 1px solid; */
     border-radius: 10px;
+    margin-top: 80px;
 }
 
 .extra-section-content {
-    max-width: 500px;
-    margin: auto;
+    /* max-width: 300px; */
+    /* margin: auto; */
+    border: 2px solid;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #d4d4e32e;
+}
+
+.extra-section-content img {
+    width: 100%;
+    /* margin-bottom: 15px; */
+}
+
+.extra-section-content:hover {
+    background-color: rgb(223, 199, 238);
 }
 
 
@@ -430,6 +545,7 @@ footer {
     gap: 20px;
     font-size: 2rem;
     margin-bottom: 30px;
+
 }
 
 

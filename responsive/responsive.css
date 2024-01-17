@@ -6,6 +6,7 @@
     .input-item,
     .choose-article,
     .popular-section,
+    .perfect-place,
     .newsletter {
         flex-direction: column;
     }
@@ -39,6 +40,9 @@
     .article-container article {
         width: auto;
     }
+    .perfect-place >div{
+        width: auto;
+    }
 
     .newsletter-content,
     .newsletter-img {
@@ -51,6 +55,7 @@
     }
     .extra-section{
         grid-template-columns: repeat(1, 1fr);
+        padding: 20px 30px;
     }
 
     .newsletter-content h3 {
