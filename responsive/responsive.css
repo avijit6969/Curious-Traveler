@@ -43,18 +43,25 @@
     .perfect-place >div{
         width: auto;
     }
+    .destination-content{
+        padding: 20px;
+    }
 
     .newsletter-content,
     .newsletter-img {
         width: auto;
     }
+    .img-container .wide {
+        grid-column: span 1;
+    }
+    
 
     .discount p {
         color: #FFF;
         font-size: 8px;
     }
-    .extra-section{
-        grid-template-columns: repeat(1, 1fr);
+    .blog-section{
+        grid-template-columns:  1fr;
         padding: 20px 30px;
     }
 
