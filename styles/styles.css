@@ -32,6 +32,7 @@ header {
 .color-description {
     /* color: #5A5A5D; */
     color: var(--secondary-color);
+    margin-top: 15px;
 }
 
 
